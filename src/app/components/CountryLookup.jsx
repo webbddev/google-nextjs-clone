@@ -38,7 +38,7 @@ export default function CountryLookup() {
         `https://extreme-ip-lookup.com/json/?key=${process.env.NEXT_PUBLIC_IP_API_KEY}`
       );
       const data = await res.json();
-      console.log(data);
+      // console.log(data);
       if (!data.country) return;
       setCountry(data.country);
     } catch (error) {
