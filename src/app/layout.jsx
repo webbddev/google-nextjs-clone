@@ -1,12 +1,11 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Footer from './components/Footer';
-import HomeHeader from './components/HomeHeader';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Google Next Js Clone',
+  title: 'Google Next.js Clone',
   description:
     'An open-source Google clone built with Next Js and Tailwind CSS',
 };
